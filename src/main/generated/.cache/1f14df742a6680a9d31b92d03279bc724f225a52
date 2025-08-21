@@ -1,0 +1,10 @@
+// 1.21.8	-999999999-01-01T00:00:00	Mobility Flux/Model Definitions
+e51f1d942521dbf2cc91160342dbcc16bbebd49b assets/mobilityflux/items/allay.json
+d4f4fae427648b50936ff1f8eec0d7148b418b89 assets/mobilityflux/items/gatecrash.json
+c5e3f0c9a85be1fe3e030f1e516804d494c9d126 assets/mobilityflux/items/shockwave_grenade.json
+6ff12869a5f24d1a39e77035ae68faa9d3ca8e47 assets/mobilityflux/items/thermal_pearl.json
+8d29d33d333430879e087e00e157cbae86ac35cd assets/mobilityflux/models/item/allay.json
+3a18d5f361eed9b58f85ff63c73d211ead22903f assets/mobilityflux/models/item/gatecrash.json
+467d7a1c426c08365374dc1d79229de56ae25e1d assets/mobilityflux/models/item/gatecrash_tethered.json
+991c00a7d441996ccce74ebb2d20a77be4c09667 assets/mobilityflux/models/item/shockwave_grenade.json
+20c0cbb4f3828724db9cc30a8c3c41b6bb1a8b38 assets/mobilityflux/models/item/thermal_pearl.json

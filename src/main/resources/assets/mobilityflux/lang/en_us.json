@@ -1,0 +1,16 @@
+{
+  "effect.mobilityflux.allay_flight": "Allay Flight",
+  "entity.mobilityflux.gatecrash": "Gatecrash",
+  "entity.mobilityflux.shockwave_grenade": "Shockwave Grenade",
+  "item.mobilityflux.gatecrash": "Gatecrash",
+  "item.mobilityflux.shockwave_grenade": "Shockwave Grenade",
+  "item.mobilityflux.thermal_pearl": "Thermal Pearl",
+  "item.mobilityflux.allay": "Allay",
+  "subtitles.entity.mobilityflux.shockwave_grenade.explode": "Shockwave Explodes",
+  "subtitles.entity.mobilityflux.shockwave_grenade.prime": "Shockwave primed",
+  "subtitles.item.mobilityflux.gatecrash.destroy": "Player destroyed gatecrash",
+  "subtitles.item.mobilityflux.gatecrash.release": "Gatecrash created",
+  "subtitles.item.mobilityflux.gatecrash.return": "Gatecrash teleports player",
+  "subtitles.item.mobilityflux.shockwave_grenade.throw": "Shockwave flies",
+  "subtitles.item.mobilityflux.thermal_pearl.use": "Thermal Pearl inflames player"
+}

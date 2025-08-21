@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:heart_of_the_sea",
+    "minecraft:lava_bucket"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mobilityflux:thermal_pearl"
+  }
+}
