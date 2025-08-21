@@ -1,0 +1,45 @@
+{
+  "item.shockwave_grenade.throw": {
+    "subtitle": "subtitles.item.mobilityflux.shockwave_grenade.throw",
+    "sounds": [
+      "minecraft:random/bow"
+    ]
+  },
+  "entity.shockwave_grenade.prime": {
+    "subtitle": "subtitles.entity.mobilityflux.shockwave_grenade.prime",
+    "sounds": [
+      "mobilityflux:entity/shockwave_grenade/prime"
+    ]
+  },
+  "entity.shockwave_grenade.explode": {
+    "subtitle": "subtitles.entity.mobilityflux.shockwave_grenade.explode",
+    "sounds": [
+      "mobilityflux:entity/shockwave_grenade/explode"
+    ]
+  },
+  "item.gatecrash.release": {
+    "subtitle": "subtitles.item.mobilityflux.gatecrash.release",
+    "sounds": [
+      "mobilityflux:entity/gatecrash/release"
+    ]
+  },
+  "item.gatecrash.return": {
+    "subtitle": "subtitles.item.mobilityflux.gatecrash.return",
+    "sounds": [
+      "mobilityflux:entity/gatecrash/return"
+    ]
+  },
+  "item.gatecrash.destroy": {
+    "subtitle": "subtitles.item.mobilityflux.gatecrash.destroy",
+    "sounds": [
+      "minecraft:block/respawn_anchor/deplete1",
+      "minecraft:block/respawn_anchor/deplete2"
+    ]
+  },
+  "item.thermal_pearl.use": {
+    "sounds": [
+      "minecraft:mob/ghast/fireball4"
+    ],
+    "subtitle": "subtitles.item.mobilityflux.thermal_pearl.use"
+  }
+}

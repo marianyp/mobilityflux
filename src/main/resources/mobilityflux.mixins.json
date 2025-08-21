@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "package": "dev.mariany.mobilityflux.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ItemEntityMixin",
+    "LivingEntityMixin",
+    "PlayerEntityMixin",
+    "ServerPlayerEntityMixin",
+    "ServerPlayNetworkHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+    "ClientPlayNetworkHandlerMixin",
+    "PlayerEntityRendererMixin",
+    "PlayerEntityRenderStateMixin"
+  ]
+}
