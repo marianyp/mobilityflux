@@ -29,46 +29,48 @@ public class ThermalPearlItem extends Item {
 
     @Override
     public ActionResult use(World world, PlayerEntity player, Hand hand) {
-        ItemStack stack = player.getStackInHand(hand);
-        ItemCooldownManager cooldownManager = player.getItemCooldownManager();
+        if (!world.isClient()) {
+            ItemStack stack = player.getStackInHand(hand);
+            ItemCooldownManager cooldownManager = player.getItemCooldownManager();
 
-        player.addStatusEffect(
-                new StatusEffectInstance(
-                        StatusEffects.FIRE_RESISTANCE,
-                        EFFECT_SECONDS * 20,
-                        0,
-                        false,
-                        true,
-                        true
-                )
-        );
+            player.addStatusEffect(
+                    new StatusEffectInstance(
+                            StatusEffects.FIRE_RESISTANCE,
+                            EFFECT_SECONDS * 20,
+                            0,
+                            false,
+                            true,
+                            true
+                    )
+            );
 
-        player.addStatusEffect(
-                new StatusEffectInstance(
-                        StatusEffects.SPEED,
-                        EFFECT_SECONDS * 20,
-                        0,
-                        false,
-                        true,
-                        true
-                )
-        );
+            player.addStatusEffect(
+                    new StatusEffectInstance(
+                            StatusEffects.SPEED,
+                            EFFECT_SECONDS * 20,
+                            0,
+                            false,
+                            true,
+                            true
+                    )
+            );
 
-        player.addStatusEffect(
-                new StatusEffectInstance(
-                        StatusEffects.HASTE,
-                        EFFECT_SECONDS * 20,
-                        1,
-                        false,
-                        true,
-                        true
-                )
-        );
+            player.addStatusEffect(
+                    new StatusEffectInstance(
+                            StatusEffects.HASTE,
+                            EFFECT_SECONDS * 20,
+                            1,
+                            false,
+                            true,
+                            true
+                    )
+            );
 
-        cooldownManager.set(stack, COOLDOWN_SECONDS * 20);
-        stack.damage(1, player);
+            cooldownManager.set(stack, COOLDOWN_SECONDS * 20);
+            stack.damage(1, player, hand);
 
-        this.playUseSound(world, player.getBlockPos());
+            this.playUseSound(world, player.getBlockPos());
+        }
 
         return ActionResult.SUCCESS;
     }
